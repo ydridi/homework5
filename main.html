@@ -134,7 +134,7 @@
     function timeFrame() {
         var currentHours = moment().hours();
 
-        $(".time-block").each(function () {
+        $(".row time-block").each(function () {
             var hourEl = $(this).attr("id");
             var hourDay = hourEl.substring(5, hourEl.length);
             var intHourDay = parseInt(hourDay)
